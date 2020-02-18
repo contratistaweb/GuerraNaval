@@ -1,0 +1,19 @@
+<div class="col-1 ml-auto">
+</div>
+<div class="col-11 d-flex flex-wrap justify-content-around ml-auto">
+    <div class="col-1 text-center borde-tablero " *ngFor="let columna of columnas">{{columna}}</div>
+</div>
+
+<div class="col-1 ml-auto">
+    <div class="col-12 d-flex flex-column text-center borde-tablero" *ngFor="let fila of filas ">
+        {{fila}}
+    </div>
+</div>
+
+
+<div class="col-11 d-flex flex-row justify-content-around">
+    <div class="col-1" *ngFor="let columna of columnas">
+        <div class="col-12 celda text-center" *ngFor="let fila of filas" id="{{fila}}{{columna}}">
+        </div>
+    </div>
+</div>

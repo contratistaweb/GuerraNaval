@@ -1,0 +1,19 @@
+.celda {
+    margin-top: 3px;
+    min-width: 30px !important;
+    max-width: 30px !important;
+    min-height: 30px !important;
+    max-height: 30px !important;
+    background-color: cornflowerblue;
+}
+
+.borde-tablero {
+    margin-top: 3px;
+    min-width: 30px !important;
+    max-width: 30px !important;
+    min-height: 30px !important;
+    max-height: 30px !important;
+    background-color: orangered;
+    border-radius: 25px;
+    color: white;
+}

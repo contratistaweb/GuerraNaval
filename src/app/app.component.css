@@ -1,0 +1,10 @@
+app-tablero {
+    background-color: black;
+    border-radius: 25px;
+    padding: 1%;
+}
+
+app-panel {
+    border: 5px red;
+    border-radius: 25px;
+}
